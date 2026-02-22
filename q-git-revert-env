@@ -1,0 +1,6 @@
+cd /home/claude/q-git-revert-env
+
+git remote add origin https://github.com/YOUR_USERNAME/q-git-revert-env.git
+
+# Force push (required since history was rewritten)
+git push --force origin main
